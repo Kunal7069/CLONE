@@ -1,0 +1,126 @@
+body {
+        
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    height:100px;
+    border:1px solid white;
+    display:flex;
+    align-items: center;
+   
+}
+.container2{
+    height:500px;
+    border:1px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+}
+.container3{
+    height:500px;
+    border:1px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+}
+.container4{
+    height:270px;
+    border:1px solid white;
+    display:flex;
+}
+.container5{
+    height:30px;
+    border:1px solid white;
+    display:flex;
+}
+.box1{
+    height:100px;
+    {% comment %} width: 1000px; {% endcomment %}
+    padding-left: 0px;
+    border:1px solid white;
+}
+.box2{
+    height:30px;
+    border:1px solid white;
+    margin: 1050px;
+    font-family: 'Roboto', sans-serif;
+}
+.box3{
+    height:80px;
+   border:1px solid white;
+   font-size: 25px;
+   margin: 20px;
+}
+
+.box4{
+    height:40px;
+    width:580px;
+    border:1px solid white;
+    margin-bottom: 40px;
+}
+.box7{
+    height:70px;
+    width:580px;
+    border:1px solid white;
+    font-size: 19px; 
+    margin-bottom: 40px;
+    padding-right: 0px;
+}
+.box6{
+    font-size: 23px;  
+    border:1px solid white;
+}
+.box5{
+    height:40px;
+    width:120px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+}
+.box9{
+    height:40px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: black;
+    color:white;  
+}
+.box10{
+    height:40px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: black;
+    color:white;  
+}
+
+
+
+.box11{
+    height:40px;
+    width:50px;
+    font-size:25px;
+    border:1px solid white;
+    border-radius: 5px;
+    margin-top: 0px;
+    background-color: black;
+    color:white;  
+}
+.box12{
+    height:250px;
+    width:250px;
+    padding-left: 50px;
+    border:1px solid white; 
+    display:flex;
+    justify-content: center;
+    flex-flow: wrap row;
+    align-items: center;
+    font-size: 18px;
+}
